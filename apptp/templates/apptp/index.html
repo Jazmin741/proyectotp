@@ -1,0 +1,16 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+    	{% for persona in persona_list %}
+    	    <h2> {{ persona.nombre }} <b>{{ persona.apellido }}</b> </h2>
+    	    <p> {{ persona.club }} </p>
+            <p> {{ persona.dni }} </p>
+            <p> {{ persona.celular }} </p>
+            <p> {{ persona.pais }} </p>
+            <p> {{ persona.localidad }} </p>
+            <p> {{ persona.imagen }}</p>
+        {% endfor %}
+    </body>
+</html
