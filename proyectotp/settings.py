@@ -120,6 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = 'C:\\Users\\Alumno\Desktop\\Proyecto-Model\\proyectotp\\apptp\\static'
+STATIC_ROOT = 'C:/Users/Alumno/Desktop/Proyecto-Model/proyectotp/apptp'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = 'uploads/'

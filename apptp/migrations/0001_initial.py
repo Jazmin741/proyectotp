@@ -20,6 +20,7 @@ class Migration(migrations.Migration):
                 ('club', models.CharField(max_length=50)),
                 ('pais', models.CharField(max_length=100)),
                 ('localidad', models.CharField(max_length=100)),
+                ('imagen', models.ImageField(null=True, blank = True)),
             ],
         ),
     ]
